@@ -2,6 +2,9 @@
 # -*- coding: utf8 -*-
 import numpy as np
 import tensorflow as tf
+import os
+# shut up Cpp logging
+os.environ["TF_CPP_MIN_LOG_LEVEL"]='2' 
 
 def grad_np(Y, X, beta):
     """

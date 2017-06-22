@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
 import tensorflow as tf
+import os
+# shut up Cpp logging
+os.environ["TF_CPP_MIN_LOG_LEVEL"]='2' 
 
 tf.reset_default_graph()
 with tf.variable_scope("foo"):
