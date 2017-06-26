@@ -1,2 +1,2 @@
-model_checkpoint_path: "example_save_session.ckpt"
-all_model_checkpoint_paths: "example_save_session.ckpt"
+model_checkpoint_path: "batch_norm"
+all_model_checkpoint_paths: "batch_norm"
